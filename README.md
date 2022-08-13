@@ -51,9 +51,6 @@ Copy and paste the entire contents of the script file from this repo into the ne
 
 ```bash
 nano ~/getting-started.sh
-# paste
-# ctrl and x (to exit)
-# save when exiting.
 ```
 
 Now run the following to make the shell files executable:
@@ -125,11 +122,9 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | 
 Setup a root user: `sudo -u YOUR_USERNAME createuser -s -w root`
 
 ## Setup Email
-- The setup script should have install Front for you. Please set this up.
+- The setup script installs Front.
 
 ## Setup VSCode
-
-Or skip this section and setup your preferred text editor.
 
 ### Recommended Extensions
 
@@ -154,10 +149,10 @@ follow these steps on the *old* laptop:
 - Copy/save the output (maybe email to yourself) and paste this output in the terminal on your new mac to install the same extensions.
 
 ## Browser Extensions
-We recommend downloading the [1Password (password manager)](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa) for chrome.
+[1Password (password manager)](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 
 ## Database Management
-- The setup script should have installed Datagrip & Postico for all your SQL needs.
+- The setup script will have installed Datagrip & Postico:
 
 #### [Datagrip](https://www.jetbrains.com/datagrip/)
 #### [Postico](https://eggerapps.at/postico/)
@@ -183,8 +178,8 @@ cat ~/.ssh/id_rsa.pub
 
 Copy output to https://github.com/settings/keys
 
-## Team Communication
-We use Slack and Zoom to communicate, these should have been install by the script.  
+## Communication
+Slack and Zoom will have been install by the script.  
 
 ## Slack Screen Recording
 You may notice that you cannot share your screen properly on Slack. To fix that:
